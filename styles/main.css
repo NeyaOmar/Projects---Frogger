@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 90vh;
+  margin: 0;
+  background-color:  #e6ed2d;
+}
+.grid div.winner{
+  content : url('../assets/you won .png');
+  height: 90vh;
+  margin: 0;
+}
+
+#start{
+  background-color: hsl(33, 100%, 75%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  box-shadow: 0 0 30px 0 #31e98d33;
+  }
+  .controls-wrapper{
+    margin: 7px 0px 0px 75px;
+  }
+
+.grid-wrapper{
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  background-color:hsl(0, 0%, 0%);
+  align-items: center;
+  box-shadow: 0 0 20px 0 #31e98d33;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  height: 810px;
+  width: 810px;
+}
+
+.grid div {
+  border: 1px solid lightgrey;
+  flex-grow: 1;
+  height: 11%;
+  width: 11%;
+}
+.grid div.frog {
+  content: url('../assets/Item_Frog.webp');
+  background-repeat: no-repeat;
+  background-size:contain;
+  cursor: pointer;
+}
+.grid div.c1 {
+  content: url('../assets/yellow car.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.grid div.c2 {
+  content: url('../assets/Blue car.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.grid div.c3{
+  content: url('../assets/Green car.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.grid div.road{
+  background-image: url('../assets/road.png');
+  background-repeat : repeat;
+  background-size:cover;
+}
+.grid div.lorry1{
+  content: url('../assets/lorry1.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.grid div.lorry2{
+  content: url('../assets/lorry2.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.grid div.froggerDies{
+  content: url('../assets/froggerDies.png');
+  background-size: auto;
+
+}
+.grid div.river{
+  background: url('../assets/river.png');
+  background-color: aqua;
+  background-size:100% 100%;
+}
+.grid div.lilypad{
+background: url('../assets/lilypad.png');
+background-color: aqua;
+}
+.grid div.home{
+  background: url('../assets/home.png');
+  background-color: green;
+}
+.grid div.bushes{
+  background: url('../assets/bushes.png');
+  background-color: green;
+}
+.controls-wrapper p{
+  font-size: 2rem;
+}
+
+
